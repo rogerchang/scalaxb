@@ -2,13 +2,13 @@ import Dependencies._
 import Common._
 
 val commonSettings = Seq(
-    version := "1.2.1",
+    version := "1.2.1-SNAPSHOT",
     organization := "org.scalaxb",
     homepage := Some(url("http://scalaxb.org")),
     licenses := Seq("MIT License" -> url("https://github.com/eed3si9n/scalaxb/blob/master/LICENSE")),
     description := """scalaxb is an XML data-binding tool for Scala that supports W3C XML Schema (xsd) and wsdl.""",
-    scalaVersion := "2.11.1",
-    crossScalaVersions := Seq("2.11.1", "2.10.4"),
+    scalaVersion := "2.10.4",
+    crossScalaVersions := Seq("2.10.4"),
     scalacOptions := Seq("-deprecation", "-unchecked"),
     parallelExecution in Test := false,
     resolvers += Resolver.typesafeIvyRepo("releases")
